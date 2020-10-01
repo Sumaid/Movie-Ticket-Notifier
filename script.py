@@ -14,9 +14,9 @@ s.login("Gmail account", "Pass word")
 msg = MIMEText("""Dear reciever,
   If you're reading this then it means Infinity war tickets are out!!!!!This is an automated mail...I sent this on 24th April 1:30 pm...If I'm still alive contact me somehow and make me book tickets and if I'm not alive then you book tickets and enjoy<3....Fast! You don't have much time.............
   Yours sincerely,
-  Sumaid Syed(of past)""")
-sender = "sumaidsyed@gmail.com"
-recipients = ['sumaidsyed@gmail.com', 'syed.sumaid@gmail.com', 'sumaid.ali@students.iiit.ac.in', 'sanjana99sunil@gmail.com', 'mehershashwat@gmail.com', 'shantanu.das@research.iiit.ac.in', 'n.sriven@gmail.com']
+  name(of past)""")
+sender = ""
+recipients = ['']
 msg['Subject'] = "Infinity War Tickets out....Tell Me"
 msg['From'] = sender
 msg['To'] = ", ".join(recipients)
